@@ -8,45 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C523C2F82064DE230078D0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523C2F72064DE230078D0BB /* AppDelegate.swift */; };
-		C523C2FA2064DE230078D0BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523C2F92064DE230078D0BB /* ViewController.swift */; };
+		C523C2FA2064DE230078D0BB /* StoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523C2F92064DE230078D0BB /* StoryListViewController.swift */; };
 		C523C2FD2064DE230078D0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523C2FB2064DE230078D0BB /* Main.storyboard */; };
 		C523C2FF2064DE230078D0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523C2FE2064DE230078D0BB /* Assets.xcassets */; };
 		C523C3022064DE230078D0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523C3002064DE230078D0BB /* LaunchScreen.storyboard */; };
-		C523C30D2064DE230078D0BB /* StorySampleWithPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523C30C2064DE230078D0BB /* StorySampleWithPOPTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C523C3092064DE230078D0BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C523C2EC2064DE230078D0BB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C523C2F32064DE230078D0BB;
-			remoteInfo = StorySampleWithPOP;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C523C2F42064DE230078D0BB /* StorySampleWithPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorySampleWithPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523C2F72064DE230078D0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C523C2F92064DE230078D0BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C523C2F92064DE230078D0BB /* StoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewController.swift; sourceTree = "<group>"; };
 		C523C2FC2064DE230078D0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C523C2FE2064DE230078D0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C523C3012064DE230078D0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C523C3032064DE230078D0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C523C3082064DE230078D0BB /* StorySampleWithPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorySampleWithPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C523C30C2064DE230078D0BB /* StorySampleWithPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySampleWithPOPTests.swift; sourceTree = "<group>"; };
-		C523C30E2064DE230078D0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C523C2F12064DE230078D0BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C523C3052064DE230078D0BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				C523C2F62064DE230078D0BB /* StorySampleWithPOP */,
-				C523C30B2064DE230078D0BB /* StorySampleWithPOPTests */,
 				C523C2F52064DE230078D0BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				C523C2F42064DE230078D0BB /* StorySampleWithPOP.app */,
-				C523C3082064DE230078D0BB /* StorySampleWithPOPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,22 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				C523C2F72064DE230078D0BB /* AppDelegate.swift */,
-				C523C2F92064DE230078D0BB /* ViewController.swift */,
-				C523C2FB2064DE230078D0BB /* Main.storyboard */,
-				C523C2FE2064DE230078D0BB /* Assets.xcassets */,
-				C523C3002064DE230078D0BB /* LaunchScreen.storyboard */,
-				C523C3032064DE230078D0BB /* Info.plist */,
+				C523C2F92064DE230078D0BB /* StoryListViewController.swift */,
+				C523C3192064E0440078D0BB /* Resources */,
+				C523C3182064E0390078D0BB /* Interface Builder */,
+				C523C3172064E0140078D0BB /* Supporting Files */,
 			);
 			path = StorySampleWithPOP;
 			sourceTree = "<group>";
 		};
-		C523C30B2064DE230078D0BB /* StorySampleWithPOPTests */ = {
+		C523C3172064E0140078D0BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C523C30C2064DE230078D0BB /* StorySampleWithPOPTests.swift */,
-				C523C30E2064DE230078D0BB /* Info.plist */,
+				C523C3032064DE230078D0BB /* Info.plist */,
 			);
-			path = StorySampleWithPOPTests;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C523C3182064E0390078D0BB /* Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				C523C2FB2064DE230078D0BB /* Main.storyboard */,
+				C523C3002064DE230078D0BB /* LaunchScreen.storyboard */,
+			);
+			path = "Interface Builder";
+			sourceTree = "<group>";
+		};
+		C523C3192064E0440078D0BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C523C2FE2064DE230078D0BB /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,24 +108,6 @@
 			productReference = C523C2F42064DE230078D0BB /* StorySampleWithPOP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C523C3072064DE230078D0BB /* StorySampleWithPOPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C523C3142064DE230078D0BB /* Build configuration list for PBXNativeTarget "StorySampleWithPOPTests" */;
-			buildPhases = (
-				C523C3042064DE230078D0BB /* Sources */,
-				C523C3052064DE230078D0BB /* Frameworks */,
-				C523C3062064DE230078D0BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C523C30A2064DE230078D0BB /* PBXTargetDependency */,
-			);
-			name = StorySampleWithPOPTests;
-			productName = StorySampleWithPOPTests;
-			productReference = C523C3082064DE230078D0BB /* StorySampleWithPOPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,11 +121,6 @@
 					C523C2F32064DE230078D0BB = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					C523C3072064DE230078D0BB = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C523C2F32064DE230078D0BB;
 					};
 				};
 			};
@@ -169,7 +138,6 @@
 			projectRoot = "";
 			targets = (
 				C523C2F32064DE230078D0BB /* StorySampleWithPOP */,
-				C523C3072064DE230078D0BB /* StorySampleWithPOPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,13 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C523C3062064DE230078D0BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -199,28 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C523C2FA2064DE230078D0BB /* ViewController.swift in Sources */,
+				C523C2FA2064DE230078D0BB /* StoryListViewController.swift in Sources */,
 				C523C2F82064DE230078D0BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C523C3042064DE230078D0BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C523C30D2064DE230078D0BB /* StorySampleWithPOPTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C523C30A2064DE230078D0BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C523C2F32064DE230078D0BB /* StorySampleWithPOP */;
-			targetProxy = C523C3092064DE230078D0BB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C523C2FB2064DE230078D0BB /* Main.storyboard */ = {
@@ -354,12 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StorySampleWithPOP/Info.plist;
+				DEVELOPMENT_TEAM = 2N4L8Q984L;
+				INFOPLIST_FILE = "$(SRCROOT)/StorySampleWithPOP/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.StorySampleWithPOP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -368,44 +314,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StorySampleWithPOP/Info.plist;
+				DEVELOPMENT_TEAM = 2N4L8Q984L;
+				INFOPLIST_FILE = "$(SRCROOT)/StorySampleWithPOP/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.StorySampleWithPOP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C523C3152064DE230078D0BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StorySampleWithPOPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.StorySampleWithPOPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorySampleWithPOP.app/StorySampleWithPOP";
-			};
-			name = Debug;
-		};
-		C523C3162064DE230078D0BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StorySampleWithPOPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.StorySampleWithPOPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorySampleWithPOP.app/StorySampleWithPOP";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -426,15 +341,6 @@
 			buildConfigurations = (
 				C523C3122064DE230078D0BB /* Debug */,
 				C523C3132064DE230078D0BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C523C3142064DE230078D0BB /* Build configuration list for PBXNativeTarget "StorySampleWithPOPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C523C3152064DE230078D0BB /* Debug */,
-				C523C3162064DE230078D0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
